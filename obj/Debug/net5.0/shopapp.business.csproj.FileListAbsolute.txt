@@ -1,6 +1,5 @@
 C:\Users\SAMSUNG\Desktop\shopapp\shopapp.business\bin\Debug\net5.0\shopapp.business.deps.json
 C:\Users\SAMSUNG\Desktop\shopapp\shopapp.business\bin\Debug\net5.0\shopapp.business.dll
-C:\Users\SAMSUNG\Desktop\shopapp\shopapp.business\bin\Debug\net5.0\ref\shopapp.business.dll
 C:\Users\SAMSUNG\Desktop\shopapp\shopapp.business\bin\Debug\net5.0\shopapp.business.pdb
 C:\Users\SAMSUNG\Desktop\shopapp\shopapp.business\bin\Debug\net5.0\shopapp.data.dll
 C:\Users\SAMSUNG\Desktop\shopapp\shopapp.business\bin\Debug\net5.0\shopapp.entity.dll
@@ -15,3 +14,4 @@ C:\Users\SAMSUNG\Desktop\shopapp\shopapp.business\obj\Debug\net5.0\shopapp.busin
 C:\Users\SAMSUNG\Desktop\shopapp\shopapp.business\obj\Debug\net5.0\shopapp.business.dll
 C:\Users\SAMSUNG\Desktop\shopapp\shopapp.business\obj\Debug\net5.0\ref\shopapp.business.dll
 C:\Users\SAMSUNG\Desktop\shopapp\shopapp.business\obj\Debug\net5.0\shopapp.business.pdb
+C:\Users\SAMSUNG\Desktop\shopapp\shopapp.business\bin\Debug\net5.0\ref\shopapp.business.dll
