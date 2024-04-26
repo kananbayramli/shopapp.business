@@ -17,6 +17,7 @@ namespace shopapp.business.Abstract
         void Update(Product entity);
         void Delete(Product entity);
         List<Product> GetHomePageProducts();
+        List<Product> GetSearchResult(string searchString);
         int GetCountByCategory(string category);
     }
 }
