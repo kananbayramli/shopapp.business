@@ -16,6 +16,7 @@ namespace shopapp.business.Abstract
         List<Product> GetAll();
         void Create(Product entity);
         void Update(Product entity);
+        void Update(Product entity, int[] categoryIds);
         void Delete(Product entity);
         List<Product> GetHomePageProducts();
         List<Product> GetSearchResult(string searchString);
