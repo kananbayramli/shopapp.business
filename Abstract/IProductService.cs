@@ -7,14 +7,14 @@ using System.Threading.Tasks;
 
 namespace shopapp.business.Abstract
 {
-    public interface IProductService
+    public interface IProductService : IValidator<Product>
     {
         Product GetById(int id);
         Product GetProductDetails(string url);
         Product GetByIdWithCategories(int id);
         List<Product> GetProductsByCategory(string name, int page, int pageSize);
         List<Product> GetAll();
-        void Create(Product entity);
+        bool Create(Product entity);
         void Update(Product entity);
         void Update(Product entity, int[] categoryIds);
         void Delete(Product entity);

@@ -18,10 +18,16 @@ namespace shopapp.business.Concrete
         {
             this._productRepository = productRepository;
         }
-        public void Create(Product entity)
+
+
+        public bool Create(Product entity)
         {
-            //yoxlamalar
-            _productRepository.Create(entity);
+            if (Validation(entity))
+            {
+                _productRepository.Create(entity);
+                return true;
+            }
+            return false;
         }
 
         public void Delete(Product entity)
@@ -79,6 +85,29 @@ namespace shopapp.business.Concrete
         public void Update(Product entity, int[] categoryIds)
         {
             _productRepository.Update(entity, categoryIds);
+        }
+
+
+
+
+        public string ErrorMessage { get; set; }
+        public bool Validation(Product entity)
+        {
+            var isValid = true;
+
+            if (string.IsNullOrEmpty(entity.Name))
+            {
+                ErrorMessage += "Product Name is required :/";
+                isValid = false; 
+            }
+
+            if (entity.Price < 0)
+            {
+                ErrorMessage += "The price can not be negative  :/";
+                isValid = false;
+            }
+
+            return isValid;
         }
     }
 }
