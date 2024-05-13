@@ -14,5 +14,4 @@ C:\Users\SAMSUNG\Desktop\shopapp\shopapp.business\obj\Debug\net5.0\shopapp.busin
 C:\Users\SAMSUNG\Desktop\shopapp\shopapp.business\obj\Debug\net5.0\shopapp.business.dll
 C:\Users\SAMSUNG\Desktop\shopapp\shopapp.business\obj\Debug\net5.0\ref\shopapp.business.dll
 C:\Users\SAMSUNG\Desktop\shopapp\shopapp.business\obj\Debug\net5.0\shopapp.business.pdb
-C:\Users\SAMSUNG\Desktop\shopapp\shopapp.business\obj\Debug\net5.0\shopapp.business.sourcelink.json
-C:\Users\SAMSUNG\Desktop\shopapp\shopapp.business\obj\Debug\net5.0\refint\shopapp.business.dll
+C:\Users\SAMSUNG\Desktop\shopapp\shopapp.business\bin\Debug\net5.0\ref\shopapp.business.dll
